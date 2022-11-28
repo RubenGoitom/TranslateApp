@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+railwayapp https://norof-api-production.up.railway.app/ 
+
+Figma 
+
+[Untitled.pdf](https://github.com/RubenGoitom/TranslateApp/files/10104725/Untitled.pdf)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
