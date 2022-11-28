@@ -1,0 +1,67 @@
+@import "./style/_pages.scss";
+@import url("https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Sanchez");
+/* @import url('https://fonts.google.com/specimen/Sanchez?query=Sanchez');
+ */
+
+h1,
+h2 {
+  font-family: "Love Ya Like A Sister", sans-serif;
+}
+
+p {
+  font-family: "Sanchez", sans-serif;
+}
+
+nav {
+  text-align: center;
+  padding: 0.01em 0 0 0em;
+  font-size: small;
+  color: #000000;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profileNav {
+  display: flex;
+  align-items: center;
+}
+
+#navFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 10em;
+  max-width: 30em;
+  align-items: center;
+}
+
+#navElementContainer {
+  display: flex;
+}
+
+#navElementContainer div {
+  position: relative;
+  padding-right: 5em;
+  margin-right: 1em;
+}
+
+#navElementContainer #img2 {
+  top: 2.5em;
+}
+
+#frontHeader {
+  background-color: #00fbff;
+  border-bottom: #e755cf solid 5px;
+}
+
+#btnLogout {
+  padding: 5px 16px;
+  margin-left: 16px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #631552;
+}
